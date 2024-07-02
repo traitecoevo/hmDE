@@ -62,7 +62,7 @@ data {
 
 // The parameters accepted by the model.
 parameters {
-  //Individual level
+  //Individual level maybe turn into matrix
   real<lower=0> ind_y_0[n_ind];
   real<lower=0> ind_max_growth[n_ind];
   real<lower=0> ind_diameter_at_max_growth[n_ind];
